@@ -1,0 +1,21 @@
+﻿<Page x:Class="PCGaurdianV1.newUserBlock"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PCGaurdianV1"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="500"
+      Title="newUserBlock">
+
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBlock Name="instruct" HorizontalAlignment="Left" Height="40" Margin="0,0,0,0" FontSize="20" TextWrapping="Wrap" Text="Select Apps you want to block." Foreground="White" VerticalAlignment="Top" Width="478"/>
+            <WrapPanel Orientation="Horizontal" >
+                <ListBox  x:Name="_1stparty" Height="225" Width="235" Margin="0,0,5,0"/>
+                <ListBox x:Name="_2ndparty" Height="225" Width="235" Margin="5,0,0,0"/>
+            </WrapPanel>
+            <Button Margin="0,12,0,0" x:Name="Next" Content="Next" HorizontalAlignment="Center" Height="40" Width="100" Click="Next_Click" RenderTransformOrigin="0.41,6.775"/>
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,20 @@
+﻿<Page x:Class="PCGaurdianV1.editUser"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PCGaurdianV1"
+      mc:Ignorable="d" 
+      d:DesignHeight="350" d:DesignWidth="500"
+      Title="editUser">
+
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Name="info" HorizontalAlignment="Center" Height="50" Margin="0,0,0,0" TextWrapping="Wrap" Text="" FontSize="24" VerticalAlignment="Top" Width="420"/>
+            <Button Name="cpass" FontSize="20" Content="Change Password" HorizontalAlignment="Center" Height="76" Margin="0,0,0,0" Width="300" Click="cpass_Click"/>
+            <Button Name="deluser" FontSize="20" Content="Delete User" HorizontalAlignment="Center" Height="76" Margin="0,10,0,0" Width="300" Click="deluser_Click"/>
+            <Button Name="capps" FontSize="20" Content="Back" HorizontalAlignment="Center" Height="76" Margin="0,10,0,0" Width="300" Click="capps_Click"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
