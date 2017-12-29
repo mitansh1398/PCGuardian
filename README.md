@@ -10,7 +10,7 @@ Word of Caution:
 Instructions:
 1) To use this download and copy the exe file PCGuardianV1 to the place you want.
 2) Start the setup.
-3) After setup is done it is recommended to restart the app.
+3) After setup is done it is recommended to restart the PC.
 
 Features:
 1) This is an app which can be used on PC which is regularly used by many users.
