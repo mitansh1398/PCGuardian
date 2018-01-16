@@ -19,3 +19,5 @@ Features:
 4) If no user has logged into the portal, the PC remains in guest mode.
 5) New users can be created and deleted after setup.
 6) Admin password can be changed from admin portal (only if admin remembers previous password).
+
+Developers - Mitansh Jain, Sujoy Ghosh, Harshit Srivastava
